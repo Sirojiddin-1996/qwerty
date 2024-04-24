@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.App{
+  padding: 1.5rem;
+  background: #263238
+}
+.main{
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+.main_title{
+  margin-right: 1.5rem;
+}
+.main_title a{
+  text-decoration: none;
+}
+.search_input{
+  padding: 5px;
+  outline: #263238;
+  background: #3a4c55;
+  color: aliceblue;
+  border: none;
+}
+.search_btn{
+  cursor: pointer;
+  padding: 5px;
+  outline: #263238;
+  background: #3a4c55;
+  color: aliceblue;
+  border: none;
+}
+.movies{
+  display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
